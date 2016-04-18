@@ -3,14 +3,16 @@
  * and open the template in the editor.
  */
 package prjava03;
+
 import java.io.*;
 import java.net.*;
+
 /**
  *
  * @author vimama1516daw2@gmail.com
  */
 public class Prjava03 {
-    /**
+	/**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
@@ -25,6 +27,7 @@ public class Prjava03 {
             System.out.println("Versió  OS: " + System.getProperty("os.version"));
             System.out.println("Creació d'una branca del projecte prjava02");
             System.out.println("Afegint més codi a la branca00 del projecte prjava02");
+            System.out.println("Conflicte típic: Codi diferent a una mateixa línia");
         }
         catch (IOException e) {
         }  
